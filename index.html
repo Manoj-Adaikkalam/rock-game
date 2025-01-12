@@ -3,11 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock-Paper-Scissors Game</title>
+    
 
-    <script src="script.js"></script>
+    <style>
+
+        h1{
+            text-align: center;
+        }
+
+        .ip{
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+        }
+
+        .content,.hs,.res{
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        body{
+            background-color: lightgreen;
+        }
+
+
+    </style>
+
+    <script src="script.js" defer></script>
 </head>
+
 <body>
+
+    <h1>ROCK-PAPER-SCISSORS !!!!</h1>
+    
+    <div class="ip">
+    <button class="ch" id="r">Rock</button>
+    <button class="ch" id="p">Paper</button>
+    <button class="ch" id="s">Scissors</button>
+    </div>
+
+    <div><p class="content"></p></div>
+    <div><p class="hs">Human Score : 0 | Computer Score : 0</p></div>
+    <div><p class="res"></p></div>
     
 </body>
 </html>
